@@ -1,0 +1,21 @@
+{
+    "name": "gcbad/test",
+    "description": "Testing GC BAD APIs",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.9",
+        "phpunit/phpunit": "^12.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gcbad\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavan"
+        }
+    ]
+}
